@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id Prestador</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Domicilio</th>
+        <th scope="col">Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% dataPrestadores.forEach((pres)=>{ %>        
+        <tr>
+          <th scope="row"><%= pres.IdPrestador %></th>
+          <td><%= pres.Nombre %></td>
+          <td><%= pres.Domicilio %></td>
+          <td><%= pres.Ciudad %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>

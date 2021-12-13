@@ -1,0 +1,32 @@
+[
+    {
+        "clase":"c1",
+        "imagen":"./img/pc.jpg",
+        "titulo":"Programa Cardiovascular",
+        "texto":"El “PROGRAMA DE PREVENCIÓN DEL RIESGO CARDIOVASCULAR” (P.P.R.C.) tiene por objetivos construir una base de datos de pacientes con riesgo y/o enfermedad cardiovascular, ayudar a su control, fijar pautas de seguimiento-auditoría y mejorar la relación costo-beneficio priorizando la calidad de la prestación. Para acceder a los beneficios del Programa, Ud. deberá completar la ficha adjunta con su médico y presentarla en el Servicio de Salud; allí se le entregará una autorización anual que le permitirá acceder a los medicamentos incluidos en el PROGRAMA DE PREVENCIÓN DEL RIESGO CARDIOVASCULAR, con cobertura del 70%. (Los medicamentos que no se encuentren en este listado, no tendrán el mencionado beneficio). La metodología de aplicación del presente Programa se realizó con Normas Nacionales e Internacionales, la colaboración de especialistas en cardiología, medicina interna, terapia intensiva y el personal del Servicio Médico."
+    },
+    {
+        "clase":"c2",
+        "imagen":"./img/pd.jpg",
+        "titulo":"Programa Diabetes",
+        "texto":"Este Programa (P.P.P.D.) busca conocer a nuestros afiliados con Diabetes Mellitus, ayudar a su control metabólico, fijar pautas de seguimiento-auditoria y analizar la relación costo-beneficio priorizando la calidad de la prestación. Los tratamientos sugeridos por el médico deberán fundamentarse en protocolos reconocidos por Entidades u Organismos Nacionales y/o Internacionales (A.D.A., A.L.A.D., O.P.S., O.M.S.) y cuyas drogas se encuentren en el Vademécum del Programa de Prevención del Paciente con Diabetes. Los alcances del presente programa consisten en la cobertura del 100% de los medicamentos específicos: antidiabéticos orales, insulinas y tiras reactivas para automonitoreo de glucemia. No tienen cobertura los aparatos de medición de glucemia, lancetas, agujas, ni mayor cantidad de tiras reactivas que las especificadas más adelante. La metodología de aplicación del presente Programa se realizó con Normas Nacionales e Internacionales, la colaboración de especialistas en endocrinología-diabetes y el personal del Servicio Médico."
+    },
+    {
+        "clase":"c3",
+        "imagen":"./img/per.jpg",
+        "titulo":"Programa Estimulación y Rehabilitación",
+        "texto":"El “PROGRAMA DE ESTIMULACION Y REHABILITACION” (P.E.R.) tiene por objetivos contribuir a que todas las personas con discapacidad dispongan de una cobertura integral para su rehabilitación, garantizando un adecuado nivel de calidad y un uso eficiente de los recursos disponibles. Desde una perspectiva sanitaria se puede considerar la discapacidad como un problema social. Por enfermedad, por accidente o por otras causas, ciertas personas están afectadas y limitadas para llevar una actividad de vida según el patrón cultural vigente. Limitación que no depende solamente del individuo que la padece, sino de las posibilidades de integración y promoción que la comunidad le ofrece. Las patologías que se encuentran comprendidas en este programa son las previstas en la Clasificación Internacional de Deficiencias, Discapacidades y Minusvalías según la Organización Mundial de la Salud (OMS)."
+    },
+    {
+        "clase":"c4",
+        "imagen":"./img/pmi.jpg",
+        "titulo":"Programa Materno Infantil",
+        "texto":"El “PROGRAMA DE PREVENCION MATERNO-INFANTIL” (P.P.M.I.) busca acompañar a afiliadas que estén cursando su embarazo, brindarles una cobertura especial, supervisar su correcto control pre-natal y la atención del parto con la asistencia del recién nacido. El control pre-natal consiste en una serie de consultas programadas para vigilar la evolución del embarazo. Con un adecuado seguimiento se logra la detección de enfermedades maternas, la prevención, diagnóstico temprano y tratamiento de las complicaciones del embarazo; la vigilancia del crecimiento, vitalidad fetal y la preparación psico-física para el parto y la lactancia. El P.P.M.I. se hace extensivo al recién nacido y su control neonatal hasta el 1er año de vida. Este Programa se realizó bajo normas nacionales e internacionales, la colaboración de especialistas en Obstetricia, en Pediatría, en Farmacología y personal del Servicio de Salud Solidario."
+    },
+    {
+        "clase":"c5",
+        "imagen":"./img/po.jpg",
+        "titulo":"Programa Oncológico",
+        "texto":"El “PROGRAMA DE CONTROL ONCOLOGICO (P.C.O.)” pretende conocer a nuestros pacientes oncológicos, fijar pautas de seguimiento-auditoria, acompañarlos en su tratamiento. Los tratamientos sugeridos por el médico oncólogo deberán fundamentarse en Protocolos en Fase III reconocidos por Entidades u Organismos Nacionales y/o Internacionales. El beneficiario del Servicio recibirá una Ficha de denuncia de patología y/o cambio de Protocolo Oncológico que deberá remitir a su médico tratante. Este deberá completarla, adjuntando informe de anatomía patológica, métodos complementarios de diagnóstico, receta de los medicamentos oncológicos que indicare o solicitud de cirugía y/o radioterapia. Debe entregar la ficha y las fotocopias de los estudios antes mencionados en Auditoria del Servicio de Salud Solidario. Todo esto será valorado por el Oncólogo Consultor de la Caja quien debe autorizar el ingreso al P.C.O. avalando el protocolo indicado con informe periódico del mismo."
+    }
+]

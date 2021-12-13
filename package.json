@@ -1,0 +1,25 @@
+{
+  "name": "entrega-hgn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HernanGN/Entrega_TP_20211025_HGN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HernanGN/Entrega_TP_20211025_HGN/issues"
+  },
+  "homepage": "https://github.com/HernanGN/Entrega_TP_20211025_HGN#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}

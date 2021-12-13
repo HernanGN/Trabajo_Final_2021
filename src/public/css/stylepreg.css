@@ -1,0 +1,13 @@
+.cuerpopreg{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    }
+
+    .preg{
+        grid-row: 1;
+    }
+
+    .volver{
+        grid-row: 2;
+        text-align: center;
+    }

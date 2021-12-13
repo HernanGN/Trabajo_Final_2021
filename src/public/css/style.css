@@ -1,0 +1,263 @@
+.cuerpo{
+    display: grid;
+    grid-template-rows: 20vh 55vh 15vh 10vh;
+    }
+
+    .cabeza{
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: 5% 10% 50% 30% 5%;
+    }
+
+        .cabezalogo{
+            grid-column: 2;
+            align-self: center;
+            justify-self: center;
+        }
+
+        .logo{
+            width: 100px;
+            height: 100px;
+        }
+
+        .cabezainfo{
+            grid-column: 3;
+            padding-top: 20px;          
+        }
+
+        .titulo{
+            font-size: x-large;
+        }
+
+        .cabezacont{
+            grid-column: 4;
+            display: grid;
+            grid-template-columns: repeat(4,25%);;
+        }
+
+        .cabcont{
+            align-self: center;
+            justify-self: center;
+        }
+
+        .cabcont1{
+            grid-column: 1;
+        }
+
+        .cabcont2{
+            grid-column: 2;
+        }   
+
+        .cabcont3{
+            grid-column: 3;
+        }
+
+        .cabcont4{
+            grid-column: 4;
+        }
+        
+        .contimg{
+            width: 36px;
+            height: 36px;
+        }        
+
+    .ppal{
+        background-color: white;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 5vh;
+    }
+
+        .ppalnoti{
+            grid-column: 1;
+        }
+
+        .caja{
+            background-color: black;
+            border: 1px solid black;
+            opacity: 0.8;
+        }
+
+        .imgslide{
+            width: 512px;
+            height: 330px;
+        }
+
+        .ppalafil{
+            grid-column: 2;
+        }
+
+    .menu{
+        grid-row: 3;
+        justify-self: center;
+        align-self: center;
+    }        
+
+    .pie{
+        grid-row: 4;
+        background-color: lightblue;
+        font-size: small;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 1vh;
+    }
+
+        .pieizq{
+            grid-column: 1;
+            text-align: left;
+            padding-left: 1%;
+        }
+        
+        .pieder{
+            grid-column: 2;
+            text-align: right;
+            padding-right: 1%;
+        }
+
+/* Tablet */
+@media (max-width: 1024px){
+
+        .logo{
+            width: 100px;
+            height: 80px;
+        }
+    
+        .cabezainfo{
+            padding-top: 70px;
+        }
+
+        .titulo{
+            font-size: large;
+        }
+
+        .ppal{
+            grid-row: 2;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            margin-top: 0vh;
+        }
+    
+            .ppalnoti{
+                grid-column: 1;
+                grid-row: 1;
+                margin-top: 2vh;
+            }
+
+            .textcaja{
+                font-size: small;
+            }
+
+            .imgslide{
+                width: 384px;
+                height: 248px;
+            }
+
+            .ppalafil{
+                grid-column: 1;
+                grid-row: 2;
+                margin-top: 2vh;
+            }
+
+        .pie{
+            font-size: small;
+            padding-top: 2vh;
+        }
+
+            .pieizq{
+                padding-left: 5%;
+            }
+        
+            .pieder{
+                padding-right: 5%;
+            }
+
+    }
+
+/* Celular */
+@media (max-width: 512px){
+
+    .cuerpo{
+        grid-template-rows: 150px 550px 100px 50px;
+    }
+
+        .cabeza{
+            grid-row: 1;
+            grid-template-columns: 30% 60%;
+            grid-template-rows: 50% 50%;
+        }        
+
+            .cabezainfo{
+                grid-row: 1;
+                grid-column: 1/3;
+                padding-top: 15px;
+                padding-left: 40px;
+            }
+
+            .titulo{
+                font-size: small;             
+            }         
+
+            .cabezalogo{
+                grid-row: 2;
+                grid-column: 1;
+                padding-left: 50px;
+            }
+
+            .logo{
+                width: 70px;
+                height: 70px;
+            }
+
+            .cabezacont{
+                grid-row: 2;
+                grid-column: 2;
+                padding-left: 30px;
+            }
+
+            .contimg{
+                width: 20px;
+                height: 20px;
+            }                
+
+        .ppal{
+            grid-row: 2;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            margin-top: 0px;
+        }
+    
+            .ppalnoti{
+                grid-column: 1;
+                grid-row: 1;
+                margin-top: 25px;
+            }
+
+            .titulocaja{
+                font-size: medium;
+            }
+
+            .textcaja{
+                font-size: x-small;
+            }
+
+            .ppalafil{
+                grid-column: 1;
+                grid-row: 2;
+                margin-top: 25px;
+            }
+
+        .pie{
+            font-size: 8px;
+            padding-top: 5px;
+        }
+        
+            .pieizq{
+                padding-left: 5px;
+            }
+        
+            .pieder{
+                padding-right: 5px;
+            }        
+
+    }    
